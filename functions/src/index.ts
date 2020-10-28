@@ -12,7 +12,7 @@ import * as admin from 'firebase-admin';
 const serviceAccount = require('../firebase-adminsdk.json');
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://card-date.firebaseio.com"
+    databaseURL: ""
 });
 
 import * as express from 'express';

@@ -20,8 +20,7 @@ export function routesConfig(app: Application) {
     ]);
 
     // updates :id item
-    app.patch('/items', [/*isAuthenticated,
-        isAuthorized({ hasRole: ['admin', 'manager'], allowSameUser: true }),*/
+    app.patch('/items', [
         patch
     ]);
 
